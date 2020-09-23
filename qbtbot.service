@@ -4,8 +4,8 @@ After=multi-user.target
 
 [Service]
 Type=idle
-WorkingDirectory=/home/pi/qbittorrent-bot
-ExecStart=/home/pi/qbittorrent-bot/venv/bin/python3 /home/pi/qbittorrent-bot/main.py
+WorkingDirectory=/home/pi/projects/qbittorrent-bot
+ExecStart=python3 /home/pi/projects/qbittorrent-bot/main.py
 
 [Install]
 WantedBy=multi-user.target
